@@ -8,17 +8,15 @@ export default function Profile() {
     return (
         <>
             <h1>{user.name}</h1>
-                <Link to="https://web.facebook.com/marcio.andre.37604">    
-                    <img
-                        className="avatar"
-                        src={user.imageUrl}
-                        alt={'Photo of' + user.name}
-                        style={{
-                            width: user.imageSize,
-                            height: user.imageSize
-                        }}
-                    />
-                </Link>
+            <img
+                className="avatar"
+                src={user.imageUrl}
+                alt={'Photo of' + user.name}
+                style={{
+                    width: user.imageSize,
+                    height: user.imageSize
+                }}
+            />
             <h3>Olá, eu tenho 22 anos e estou tentando me tornar um programador!</h3>
         </>
     );
