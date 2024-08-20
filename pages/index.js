@@ -19,6 +19,7 @@ export default function Profile() {
                         }}
                     />
                 </Link>
+            <h3>Olá, eu tenho 22 anos e estou tentando me tornar um programador!</h3>
         </>
     );
 }
