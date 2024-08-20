@@ -1,7 +1,12 @@
 function Home() {
-    return <h1>Jamais desista de seguir os seus sonhos,
-        você consegue!
-    </h1>
+    return (
+        <div>
+            <button>Clique aqui</button>
+            <h1>Essse botão foi criado usando o react
+                estou aprendendo né kkkk
+            </h1>
+        </div>
+    );
 }
 
 export default Home;
